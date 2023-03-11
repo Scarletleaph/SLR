@@ -18,7 +18,7 @@ def check(dirname):
         if(word in dirname):
             return True
     return False
-
+#It will print words not in Include 50 and these you are going to delete. comment line 26, uncomment line 27,28,29 to delete. I have pasted the non Include 50 labels in Include readme if interested.
 for root,dirnames,filenames in os.walk('.'):
     if(len(filenames)==0):
         for dir in dirnames:
